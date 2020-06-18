@@ -29,7 +29,7 @@
 <!-- Start of presentation ------------------------------------------------------------------------ -->
 <section>
 	<h1>HPC facilities for UK researchers</h1>
-	<p>David Henty, EPCC (from an original by Andy Turner, EPCC)<br/>
+	<p>David Henty, EPCC (original by Andy Turner, EPCC)<br/>
 	<a href="mailto:d.henty@epcc.ed.ac.uk">d.henty@epcc.ed.ac.uk</a></p>
 	<img class="plain" src="img/epcc_logo.png" />
 	<p style="font-size: 0.7em"><a href="https://github.com/davidhenty/discnet/">https://github.com/davidhenty/discnet</a></p>
@@ -62,7 +62,7 @@
 		<li><a href="#/epcc">EPCC</a></li>
 		<li><a href="#/ukhpc">UK HPC Facilities</a>
 			<ul class="inner">
-				<li><a href="#/archer">ARCHER</a> - UK National Supercomputing Service</li>
+				<li><a href="#/archer">ARCHER/ARCHER2</a> - UK National Supercomputing Services</li>
 				<li><a href="#/dirac">DiRAC</a> - STFC national HPC service</li>
 				<li><a href="#/tier2">UK National Tier-2 HPC facilities</a></li>
 				<li><a href="#/other">Other facilities</a></li>
@@ -85,7 +85,7 @@
 	<div class="lblock">
 		<ul>
 			<li>One of Europe's top HPC centres</li>
-			<li>27 years old: ~90 staff</li>
+			<li>30 years old: ~100 staff</li>
 			<li>Fully self-sustaining: £8m turnover per annum</li>
 			<li>Leading UK national HPC provider</li>
 			<li>Range of expertise: HPC to Data Science and Cloud</li>
@@ -108,12 +108,13 @@
 <section>
 	<h3>Facilities hosted at EPCC ACF</h3>
 	<ul>
-		<li>ARCHER - UK National Supercomputing Service</li>
-		<li>DiRAC Extreme Scaling - STFC national HPC service</li>
-		<li>Cirrus - National Tier-2 HPC resource</li>
-		<li>UK RDF - Large scale data store and analysis</li>
-		<li>ATI - Novel data science platforms</li>
-		<li>FARR - NHS Scotland safe haven and data analysis</li>
+	  <li>ARCHER - (current) UK National Supercomputing Service (for EPSRC / NERC / BBSRC)</li>
+	  <li>ARCHER2 - (future) UK National Supercomputing Service (for EPSRC / NERC / BBSRC)</li>
+	  <li>DiRAC Extreme Scaling - STFC national HPC service</li>
+	  <li>Cirrus - National Tier-2 HPC resource</li>
+	  <li>UK RDF - Large scale data store and analysis</li>
+	  <li>ATI - Novel data science platforms</li>
+	  <li>FARR - NHS Scotland safe haven and data analysis</li>
 	</ul>
 </section>
 
@@ -127,7 +128,7 @@
 	<h3>HPC Tiers</h3>
 
 	<ul>
-		<li>Tier-1 Facilities: ARCHER and DiRAC</li>
+		<li>Tier-1 Facilities: ARCHER, ARCHER2 and DiRAC</li>
 		<li>Tier-2 Facilities: (between Tier-1 and Tier-3!)</li>
 		<li>Tier-3 Facilities: institutional facilities</li>
 		<li>Other Facilities: e.g. public cloud</li>
@@ -148,7 +149,8 @@
 <section>
 	<h3>HPC Services Covered</h3>
 	<ul>
-		<li><a href="#/archer">ARCHER</a> - UK National Supercomputing Service</li>
+		<li><a href="#/archer">ARCHER</a> - (current) UK National Supercomputing Service</li>
+		<li><a href="#/archer2">ARCHER2</a> - (future) UK National Supercomputing Service</li>
 		<li><a href="#/dirac">DiRAC</a> - STFC national HPC service</li>
 		<li><a href="#/tier2">UK National Tier-2 HPC facilities</a></li>
 		<li><a href="#/tier2">Other facilities</a></li>
@@ -169,6 +171,66 @@
 		<img width="150" class="plain" src="img/nerc-logo-large.jpg" />
 		<img width="250" class="plain" src="img/epcc_logo.png" />
 		<img width="250" class="plain" src="img/cray-logo.png" />
+	</div>
+	<div class="rblock">
+		<img class="plain" src="img/archer_cabs.png" />
+	</div>
+</section>
+
+<section>
+	<h4>ARCHER Service Design</h4>
+	<ul>
+		<li>High core count distributed memory: 1000+ cores</li>
+		<li>"Traditional" capability HPC</li>
+		<li>Main users: Materials science, Climate/ocean modelling, CFD, <em>etc.</em></li>
+		<li>Growing interest in non-traditional use: <em>e.g.</em> data science, bioinformatics</li>
+	</ul>
+	<p>Cray XC30: 118,080 cores (4920 nodes)<br/>2&times; 12-core Xeon per node; 64/128 GiB memory</p>
+</section>
+
+<section>
+	<h4>ARCHER Support</h4>
+
+	<p>Large amount of support provided by EPCC</p>
+
+	<ul>
+		<li>Helpdesk with access to all EPCC expertise</li>
+		<li>Free training across the UK</li>
+		<li>eCSE calls for software development</li>
+		<li>Benchmarking/profiling work to support users</li>
+	</ul>
+
+	<p>All free at point of use</p>
+
+</section>
+
+<section>
+	<h3>Access to ARCHER</h3>
+
+	<dl style="font-size: 0.75em">
+		<dt>Instant Access (EPSRC remit only)</dt>
+		<dd>Small amounts of resource to test ARCHER facilities</dd>
+		<dt>ARCHER Driving Test</dt>
+		<dd>Complete simple test and gain small amounts of resource to test ARCHER facilities</dd>
+		<dt>Resource Allocation Panel (RAP) (EPSRC remit only)</dt>
+		<dd>Applications for large amounts of ARCHER resource for 1 year</dd>
+		<dt>Grant Access</dt>
+		<dd>Add access costs to grant application (notional for EPSRC/NERC, real otherwise)</dd>
+	</dl>
+	<p><a href="http://www.archer.ac.uk/access">http://www.archer.ac.uk/access</a></p>
+</section>
+
+<!-- ARCHER2 Section ------------------------------------------------------------------------ -->
+<section id="archer2">
+	<img class="plain" src="img/Archer2_logo.png" />
+	<p><a href="http://www.archer2.ac.uk">http://www.archer2.ac.uk</a></p>
+</section>
+
+<section>
+	<h4>UK National Supercomputer Service</h4>
+	<div class="lblock">
+		<img width="250" class="plain" src="img/UKRI-EPSRC-NERC-logo.png" />
+		<img width="250" class="plain" src="img/cray-hpe-logo.png" />
 	</div>
 	<div class="rblock">
 		<img class="plain" src="img/archer_cabs.png" />
